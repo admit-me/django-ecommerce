@@ -1,22 +1,51 @@
 # Django E-Commerce Platform
 
-A portfolio-ready e-commerce backend and web application built with Django. The project demonstrates authentication, product management, cart workflows, orders, database operations, and clean backend design.
+> Full-stack e-commerce application built with Python and Django.
 
-## Planned Features
+A portfolio project demonstrating practical web-development and backend concepts through product management, authentication, shopping-cart workflows, orders and database operations.
+
+## Features
+
 - User registration and authentication
 - Product catalog and categories
 - Product search and filtering
-- Shopping cart
+- Shopping cart workflow
 - Order creation and order history
 - Django admin management
-- REST API layer
-- SQLite for development with PostgreSQL-ready configuration
+- Database-backed product and order models
+- REST API layer where implemented
 
 ## Tech Stack
-Python, Django, Django REST Framework, SQLite/PostgreSQL, HTML, CSS, JavaScript
+
+**Python • Django • Django REST Framework • SQLite • HTML • CSS • JavaScript**
+
+## What I Practiced
+
+- Django models and relationships
+- Views, URLs and templates
+- Authentication and authorization
+- CRUD operations
+- Cart and order business logic
+- Database queries and migrations
+- Backend application structure
+
+## Run Locally
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+Open `http://127.0.0.1:8000/` in your browser.
 
 ## Project Goal
-Demonstrate practical full-stack development skills through a realistic business application.
+
+Build a realistic business application while strengthening Python, Django, database and full-stack development skills.
 
 ## Author
-Meka Praveen Kumar Reddy
+
+**Meka Praveen Kumar Reddy**  
+Python / Django Developer
